@@ -1,0 +1,156 @@
+
+\documentclass{article}
+
+
+\usepackage{siunitx} % Provides the \SI{}{} and \si{} command for typesetting SI units
+\usepackage{graphicx} % Required for the inclusion of images
+\usepackage{natbib} % Required to change bibliography style to APA
+\usepackage{amsmath} % Required for some math elements 
+
+\setlength\parindent{24pt} % Removes all indentation from paragraphs
+
+\renewcommand{\labelenumi}{\alph{enumi}.} % Make numbering in the enumerate environment by letter rather than number (e.g. section 6)
+
+\usepackage{times} % Uncomment to use the Times New Roman font
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Determination of the Refractive Indexes \\ of Air and Acrylic \\ } % Title
+
+\author{Yi \textsc{Hu}} % Author name
+
+\date{\today} % Date for the report
+\begin{titlepage}
+\begin{document}
+		\maketitle % Insert the title, author and date
+		\thispagestyle{empty}
+
+	
+	\begin{center}
+		\begin{tabular}{l r}
+			Date Performed: & March 2, 2016 \\ % Date the experiment was performed
+			Partners: & Yi Hu \\ % Partner names
+			& Trina Le \\
+			Instructor: & Kyle Slinker % Instructor/supervisor
+		\end{tabular}
+	\end{center}
+\end{titlepage}
+
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 1
+%----------------------------------------------------------------------------------------
+
+\section{Objective}
+
+To determine the atomic weight of magnesium via its reaction with oxygen and to study the stoichiometry of the reaction (as defined in \ref{definitions}):
+
+
+% If you have more than one objective, uncomment the below:
+%\begin{description}
+%\item[First Objective] \hfill \\
+%Objective 1 text
+%\item[Second Objective] \hfill \\
+%Objective 2 text
+%\end{description}
+
+\subsection{Definitions}
+\label{definitions}
+\begin{description}
+\item[Stoichiometry]
+The relationship between the relative quantities of substances taking part in a reaction or forming a compound, typically a ratio of whole integers.
+\item[Atomic mass]
+The mass of an atom of a chemical element expressed in atomic mass units. It is approximately equivalent to the number of protons and neutrons in the atom (the mass number) or to the average number allowing for the relative abundances of different isotopes. 
+\end{description} 
+ 
+%----------------------------------------------------------------------------------------
+%	SECTION 2
+%----------------------------------------------------------------------------------------
+
+\section{Experimental Data}
+
+\begin{tabular}{ll}
+Mass of empty crucible & \SI{7.28}{\gram}\\
+Mass of crucible and magnesium before heating & \SI{8.59}{\gram}\\
+Mass of crucible and magnesium oxide after heating & \SI{9.46}{\gram}\\
+Balance used & \#4\\
+Magnesium from sample bottle & \#1
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 3
+%----------------------------------------------------------------------------------------
+
+\section{Sample Calculation}
+
+\begin{tabular}{ll}
+Mass of magnesium metal & = \SI{8.59}{\gram} - \SI{7.28}{\gram}\\
+& = \SI{1.31}{\gram}\\
+Mass of magnesium oxide & = \SI{9.46}{\gram} - \SI{7.28}{\gram}\\
+& = \SI{2.18}{\gram}\\
+Mass of oxygen & = \SI{2.18}{\gram} - \SI{1.31}{\gram}\\
+& = \SI{0.87}{\gram}
+\end{tabular}
+
+Because of this reaction, the required ratiotwo significant figures).
+
+%----------------------------------------------------------------------------------------
+%	SECTION 4
+%----------------------------------------------------------------------------------------
+
+\section{Results and Conclusions}
+
+The atomic weight of magnesium is concluded to rmined by the stoichiometry of its chemical combination with oxygen. This result is in agreement with the accepted value.
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.65\textwidth]{placeholder} % Include the image placeholder.png
+\caption{Figure caption.}
+\end{center}
+\end{figure}
+
+%----------------------------------------------------------------------------------------
+%	SECTION 5
+%----------------------------------------------------------------------------------------
+
+\section{Discussion of Experimental Uncertainty}
+
+
+%----------------------------------------------------------------------------------------
+%	SECTION 6
+%----------------------------------------------------------------------------------------
+
+\section{Answers to Definitions}
+
+\begin{enumerate}
+\begin{item}
+The \emph{atomic weight of an element} is the relative weight of one of its atoms compared to C-12 with a weight of 12.0000000$\ldots$, hydrogen with a weight of 1.008, to oxygen with a weight of 16.00. Atomic weight is also the average weight of all the atoms of that element as they occur in nature.
+\end{item}
+\begin{item}
+The \emph{units of atomic weight} are two-fold, with an identical numerical value. They are g/mole of atoms (or just g/mol) or amu/atom.
+\end{item}
+\begin{item}
+\emph{Percentage discrepancy} between an accepted (literature) value and an experimental value is
+\begin{equation*}
+\frac{\mathrm{experimental\;result} - \mathrm{accepted\;result}}{\mathrm{accepted\;result}}
+\end{equation*}
+\end{item}
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+\bibliographystyle{apalike}
+
+\bibliography{sample}
+
+%----------------------------------------------------------------------------------------
+
+
+\end{document}
